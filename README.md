@@ -113,7 +113,6 @@ daon-assignment/
 │   │   │                       #   startCamera()         — calls getUserMedia
 │   │   │                       #   getCameraErrorMessage() — maps DOMException names to readable strings
 │   │   │                       #   captureSnapshot()     — draws video frame to canvas, returns data URL
-│   │   └── constants.ts        # SNAPSHOT_SECONDS = 5 (single source of truth for the timer)
 │   │
 │   └── types/
 │       └── index.ts            # AppState discriminated union:
