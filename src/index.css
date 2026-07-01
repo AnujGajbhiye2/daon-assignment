@@ -99,6 +99,12 @@ body {
   line-height: 1.4;
 }
 
+@media (max-width: 768px) {
+  .camera-tooltip {
+    left: 10px;
+  }
+}
+
 .btn {
   padding: 9px 20px;
   font-size: 15px;

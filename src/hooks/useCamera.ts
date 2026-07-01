@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import type { AppState } from "../types";
 import { startCamera, captureSnapshot, getCameraErrorMessage } from "../utils";
-import { SNAPSHOT_SECONDS } from "../utils/constants";
+
+const SNAPSHOT_SECONDS = 5
 
 /**
  * Owns the full camera lifecycle: requesting access, previewing the stream,

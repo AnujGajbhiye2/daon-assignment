@@ -1,5 +1,13 @@
 # Video Capture
 
+## Demo
+
+Here's a short video demonstrating the app running in the browser and capturing a photo:
+
+[Watch demo](https://www.loom.com/share/84e592c0afcd480ba9a990b5eda8fd01)
+
+---
+
 Single-page app that accesses the user's camera via the WebRTC `getUserMedia` API and automatically takes a snapshot after 5 seconds.
 
 ## Features
